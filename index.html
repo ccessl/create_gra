@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script type="text/javascript" src="gra.js"></script>
     <style type="text/css">
         #gra
         {
@@ -17,7 +16,7 @@
 </div>
 <script>
     /**
-     * Created by CC on 2017/9/4.
+     * Created by chencen on 2017/9/4.
      */
     var Gra=function(){
         this.elem=arguments[0];
@@ -107,7 +106,6 @@
                 for (j = 0; j < data.length; j++) {
                     if (data[i][j] != 0 && data[i][j] != Number.POSITIVE_INFINITY && i != j) {
                         //比例
-                        //console.log(i + '> ' + j)
                         var rat = Math.atan((mydata[j].y - mydata[i].y) / (mydata[j].x - mydata[i].x));
                         var dex = Math.cos(rat + (Math.PI / 6)) * this.pointSize;
                         var dey = Math.sin(rat + (Math.PI / 6)) * this.pointSize;
