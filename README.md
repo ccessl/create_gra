@@ -2,6 +2,10 @@
 
 ##无向图
 
+#效果
+
+[查看](https://ccessl.github.io/create_gra/)
+
 ```
  var option={
         name:['v0','v1','v2','v3','v4','v5','v6'],
